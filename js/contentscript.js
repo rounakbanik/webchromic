@@ -7,9 +7,14 @@ function JSONParser(event) {
     		info = xhr.responseText;
     		info_obj = jQuery.parseJSON(info);
     		img_src = info_obj[event.data.key];
-    		$(".img-container img").attr("src", img_src);
+    		$(".img-container img").fadeOut(400, function() {
+            	$(this).attr('src',img_src);
+            	$(".img-container img").css("transform", event.data.scale);
+				$(".img-container img").css("margin-top", event.data.margin);
+        	}).fadeIn(400);
+    		/*$(".img-container img").attr("src", img_src);
     		$(".img-container img").css("transform", event.data.scale)
-    		$(".img-container img").css("margin-top", event.data.margin);
+    		$(".img-container img").css("margin-top", event.data.margin);*/
   		}
 	}
 	xhr.send();
@@ -24,9 +29,15 @@ function JSONParse(event) {
     		info = xhr.responseText;
     		info_obj = jQuery.parseJSON(info);
     		img_src = info_obj[event.key];
-    		$(".img-container img").attr("src", img_src);
+    		$(".img-container img").fadeOut(400, function() {
+            		$(this).attr('src',img_src);
+            		$(".img-container img").css("transform", event.scale);
+					$(".img-container img").css("margin-top", event.margin);
+        		}).fadeIn(400);
+			//}
+    		/*$(".img-container img").attr("src", img_src);
     		$(".img-container img").css("transform", event.scale)
-    		$(".img-container img").css("margin-top", event.margin);
+    		$(".img-container img").css("margin-top", event.margin);*/
   		}
 	}
 	xhr.send();
@@ -40,9 +51,15 @@ function HTMLParser(event) {
 			info = xhr.responseText;
 			info_obj = jQuery.parseHTML(info);
 			img_src = event.data.prestr + $(info_obj).find(event.data.key).attr("src");
-			$(".img-container img").attr("src", img_src);
+			$(".img-container img").fadeOut(400, function() {
+            		$(this).attr('src',img_src);
+            		$(".img-container img").css("transform", event.data.scale);
+					$(".img-container img").css("margin-top", event.data.margin);
+        		}).fadeIn(400);
+			//}
+			/*$(".img-container img").attr("src", img_src);
 			$(".img-container img").css("transform", event.data.scale);
-			$(".img-container img").css("margin-top", event.data.margin);
+			$(".img-container img").css("margin-top", event.data.margin);*/
 		}
 	}
 	xhr.send();
