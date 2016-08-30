@@ -59,10 +59,11 @@ function HTMLParse(event) {
 			img_src = event.prestr + $(info_obj).find(event.key).attr("src");
 			 $(".img-container img").fadeOut(400, function() {
             		$(this).attr('src',img_src);
+            		$(".img-container img").css("transform", event.scale);
+					$(".img-container img").css("margin-top", event.margin);
         		}).fadeIn(400);
 			}
-			$(".img-container img").css("transform", event.scale);
-			$(".img-container img").css("margin-top", event.margin);
+			
 	}
 	xhr.send();
 
