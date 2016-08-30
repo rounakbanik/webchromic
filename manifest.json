@@ -23,8 +23,15 @@
 		"https://www.xkcd.com/info.0.json",
 		"http://explosm.net/comics/latest",
 		"http://sarahcandersen.com/",
+		"http://www.smbc-comics.com/",
+		"http://www.gocomics.com/pearlsbeforeswine",
+		"http://www.buttercupfestival.com/",
+		"http://oglaf.com/",
+		"http://www.girlgeniusonline.com/comic.php",
+		"http://theawkwardyeti.com/",
+		"http://poorlydrawnlines.com/",
 		"<all_urls>"
 	],
-	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://explosm.net/comics/latest http://sarahcandersen.com/; object-src 'self'"
+	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://explosm.net/comics/latest http://sarahcandersen.com/ http://www.smbc-comics.com/ http://www.gocomics.com/pearlsbeforeswine http://www.buttercupfestival.com/ http://oglaf.com/ http://www.girlgeniusonline.com/comic.php http://theawkwardyeti.com/ http://poorlydrawnlines.com/; object-src 'self'"
 
 }
