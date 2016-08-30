@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "Webchromic",
+	"version": "1.0.0",
+	"description": "Bring the best webcomics to your homepage.",
+	"author": "Rounak Banik",
+	"icons": {
+		"16": "images/icon.png",
+		"32": "images/icon.png",
+		"64": "images/icon.png",
+		"128": "images/icon.png"
+	},
+	"chrome_url_overrides" : {
+    	"newtab": "webchromic.html"
+  	},
+  	"browser_action": {
+  		"default_icon": "images/icon.png",
+  		"default_title": "Webchromic"
+  	},
+  	"permissions": [
+		"tabs",
+		"activeTab",
+		"https://www.xkcd.com/info.0.json",
+		"http://explosm.net/comics/latest",
+		"<all_urls>"
+	],
+	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://explosm.net/comics/latest; object-src 'self'"
+
+}
