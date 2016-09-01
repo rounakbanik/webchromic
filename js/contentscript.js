@@ -87,7 +87,7 @@ function HTMLParse(event) {
 }
 
 websites = [{url: "https://xkcd.com/info.0.json", key: "img", scale: "scale(1.1)", margin: "85px"},
-	{url: "http://www.smbc-comics.com/", key: "#cc-comic", prestr: "", scale: "scale(0.65)", margin: "-235px"},
+	{url: "http://www.smbc-comics.com/", key: "#cc-comic", prestr: "", scale: "scale(0.65)", margin: "-135px"},
 	{url: "http://sarahcandersen.com/", key: "article img", prestr: "", scale: "scale(0.7)", margin: "-85px"},
 	{url: "http://poorlydrawnlines.com/", key: ".post p img", prestr: "", scale: "scale(0.9)", margin: "0px"},
 	{url: "http://theawkwardyeti.com/", key: "#comic img", prestr: "", scale: "scale(0.4)", margin: "-430px"},
@@ -113,7 +113,7 @@ $(document).ready(function() {
 	}
 
 	$(".xkcd-mlink").click({url: "https://xkcd.com/info.0.json", key: "img", scale: "scale(1.1)", margin: "85px"}, JSONParser);
-	$(".smbc-mlink").click({url: "http://www.smbc-comics.com/", key: "#cc-comic", prestr: "", scale: "scale(0.65)", margin: "-235px"}, HTMLParser);
+	$(".smbc-mlink").click({url: "http://www.smbc-comics.com/", key: "#cc-comic", prestr: "", scale: "scale(0.65)", margin: "-135px"}, HTMLParser);
 	$(".sarah-mlink").click({url: "http://sarahcandersen.com/", key: "article img", prestr: "", scale: "scale(0.7)", margin: "-85px"}, HTMLParser);
 	$(".pdl-mlink").click({url: "http://poorlydrawnlines.com/", key: ".post p img", prestr: "", scale: "scale(0.9)", margin: "0px"}, HTMLParser);
 	$(".yeti-mlink").click({url: "http://theawkwardyeti.com/", key: "#comic img", prestr: "", scale: "scale(0.4)", margin: "-430px"}, HTMLParser);
