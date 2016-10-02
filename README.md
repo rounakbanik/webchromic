@@ -24,10 +24,10 @@ rounakbanik@gmail.com</p>
 
 <h2>Screenshots</h2>
 
-![alt tag](https://github.com/rounakbanik/webchromic/screenshots/1.png)
+![alt tag](https://github.com/rounakbanik/webchromic/blob/master/screenshots/1.png)
 <br>
-![alt tag](https://github.com/rounakbanik/webchromic/screenshots/2.png)
+![alt tag](https://github.com/rounakbanik/webchromic/blob/master/screenshots/2.png)
 <br>
-![alt tag](https://github.com/rounakbanik/webchromic/screenshots/3.png)
+![alt tag](https://github.com/rounakbanik/webchromic/blob/master/screenshots/3.png)
 <br>
-![alt tag](https://github.com/rounakbanik/webchromic/screenshots/4.png)
+![alt tag](https://github.com/rounakbanik/webchromic/blob/master/screenshots/4.png)
