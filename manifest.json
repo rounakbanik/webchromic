@@ -1,7 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Webchromic",
-	"version": "1.1.0",
+	"name": "Webchromic: The Best Webcomics",
+	"short_name": "Webchromic",
+	"version": "1.2.1",
 	"description": "Bring the best webcomics to your homepage.",
 	"author": "Rounak Banik",
 	"icons": {
@@ -23,15 +24,18 @@
 		"https://www.xkcd.com/info.0.json",
 		"http://explosm.net/comics/latest",
 		"http://sarahcandersen.com/",
-		"http://www.smbc-comics.com/",
-		"http://www.gocomics.com/pearlsbeforeswine",
+		"http://abstrusegoose.com/",
+		"http://spikedmath.com/",
 		"http://www.buttercupfestival.com/",
 		"http://oglaf.com/",
+		"http://www.incidentalcomics.com/",
+		"http://carbon-comic.com/",
 		"http://www.girlgeniusonline.com/comic.php",
+		"http://brownsharpie.courtneygibbons.org/",
 		"http://theawkwardyeti.com/",
 		"http://poorlydrawnlines.com/",
 		"<all_urls>"
 	],
-	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://explosm.net/comics/latest http://sarahcandersen.com/ http://www.smbc-comics.com/ http://www.gocomics.com/pearlsbeforeswine http://www.buttercupfestival.com/ http://oglaf.com/ http://www.girlgeniusonline.com/comic.php http://theawkwardyeti.com/ http://poorlydrawnlines.com/; object-src 'self'"
+	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://explosm.net/comics/latest http://carbon-comic.com/ http://www.incidentalcomics.com/ http://brownsharpie.courtneygibbons.org/ http://spikedmath.com/ http://sarahcandersen.com/ http://abstrusegoose.com/ http://www.buttercupfestival.com/ http://oglaf.com/ http://www.girlgeniusonline.com/comic.php http://theawkwardyeti.com/ http://poorlydrawnlines.com/; object-src 'self'"
 
 }
