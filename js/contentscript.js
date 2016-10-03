@@ -97,6 +97,7 @@ websites = [{url: "https://xkcd.com/info.0.json", key: "img", scale: "scale(1.1)
 	{url: "http://oglaf.com/", key: "#strip", prestr: "", scale: "scale(0.9)", margin: "-5px"},
 	{url: "http://carbon-comic.com/", key: "#comic img", prestr: "", scale: "scale(0.8)", margin: "20px"},
 	{url: "http://www.buttercupfestival.com/", key: "center img", prestr: "", scale: "scale(0.95)", margin: "35px"},
+	{url: "http://thisisindexed.com/", key: "#content div:nth-child(2) .entry-content p img", prestr: "", scale: "scale(1.3)", margin: "80px"},
 	{url: "http://brownsharpie.courtneygibbons.org/", key: "#comic-1 a img", prestr: "", scale: "scale(0.7)", margin: "30px"},
 	{url: "http://www.incidentalcomics.com/", key: ".blog-posts .date-outer:first-child .date-posts .post-outer .post-body .separator a img", prestr: "",scale: "scale(0.9)", margin: "10px"},
 	{url: "http://explosm.net/comics/latest", key: "#main-comic", prestr: "http:", scale: "scale(0.75)", margin: "-55px"}
@@ -126,4 +127,5 @@ $(document).ready(function() {
 	$(".sharpie-mlink").click({url: "http://brownsharpie.courtneygibbons.org/", key: "#comic-1 a img", prestr: "", scale: "scale(0.7)", margin: "30px"}, HTMLParser);
 	$(".incidental-mlink").click({url: "http://www.incidentalcomics.com/", key: ".blog-posts .date-outer:first-child .date-posts .post-outer .post-body .separator a img", prestr: "", scale: "scale(0.9)", margin: "10px"}, HTMLParser);
 	$(".carbon-mlink").click({url: "http://carbon-comic.com/", key: "#comic img", prestr: "", scale: "scale(0.8)", margin: "20px"}, HTMLParser);
+	$(".indexed-mlink").click({url: "http://thisisindexed.com/", key: "#content div:nth-child(2) .entry-content p img", prestr: "", scale: "scale(1.3)", margin: "80px"}, HTMLParser);
 });
