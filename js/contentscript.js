@@ -107,7 +107,8 @@ websites = [{url: "https://xkcd.com/info.0.json", key: "img", scale: "scale(1.1)
 	{url: "http://abstrusegoose.com/", key: "section img", prestr: "", scale: "scale(0.7)", margin:"30px"},
 	{url: "http://thisisindexed.com/", key: "#content div:nth-child(2) .entry-content p img", prestr: "", scale: "scale(1.3)", margin: "80px"},
 	{url: "http://www.incidentalcomics.com/", key: ".blog-posts .date-outer:first-child .date-posts .post-outer .post-body .separator a img", prestr: "",scale: "scale(0.9)", margin: "10px"},
-];
+	{url: "http://www.smbc-comics.com/", key: "#cc-comic img", prestr: "",scale: "scale(1.0)", margin: "10px"},
+	   ];
 
 $(document).ready(function() {
 
@@ -133,4 +134,5 @@ $(document).ready(function() {
 	$(".carbon-mlink").click({url: "http://carbon-comic.com/", key: "#comic img", prestr: "", scale: "scale(0.8)", margin: "20px"}, HTMLParser);
 	$(".indexed-mlink").click({url: "http://thisisindexed.com/", key: "#content div:nth-child(2) .entry-content p img", prestr: "", scale: "scale(1.3)", margin: "80px"}, HTMLParser);
 	$(".abstruse-mlink").click({url: "http://abstrusegoose.com/", key: "section img", prestr: "", scale: "scale(0.7)", margin:"30px"}, HTMLParser);
+	$(".smbc-mlink").click({url: "http://www.smbc-comics.com/", key: "#cc-comic img", prestr: "",scale: "scale(1.0)", margin: "10px"}, HTMLParser);
 });
