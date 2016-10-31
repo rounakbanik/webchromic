@@ -34,9 +34,9 @@
 		"http://theawkwardyeti.com/",
 		"http://poorlydrawnlines.com/",
 		"http://abstrusegoose.com/",
-		"http://www.smbc-comics.com/",
+		"http://www.awkwardzombie.com/",
 		"<all_urls>"
 	],
-	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://thisisindexed.com/ http://abstrusegoose.com/ http://carbon-comic.com/ http://www.incidentalcomics.com/ http://spikedmath.com/ http://sarahcandersen.com/ http://abstrusegoose.com/ http://www.buttercupfestival.com/ http://oglaf.com/ http://www.girlgeniusonline.com/comic.php http://theawkwardyeti.com/ http://poorlydrawnlines.com/ http://www.smbc-comics.com/; object-src 'self'"
+	"content_security_policy": "script-src 'self' https://xkcd.com/info.0.json http://thisisindexed.com/ http://abstrusegoose.com/ http://carbon-comic.com/ http://www.incidentalcomics.com/ http://spikedmath.com/ http://sarahcandersen.com/ http://abstrusegoose.com/ http://www.buttercupfestival.com/ http://oglaf.com/ http://www.girlgeniusonline.com/comic.php http://theawkwardyeti.com/ http://poorlydrawnlines.com/ http://www.awkwardzombie.com/; object-src 'self'"
 
 }
